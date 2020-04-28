@@ -8,8 +8,13 @@ obtained from http://vision.fe.uni-lj.si/cvww2016/proceedings/papers/05.pdf
 The program locates 6 facial landmarks on each eye and computes the "eye aspect ratio".  
 The alarms sounds when user's eyes are below a certain eye aspect ratio during a period of time.  
 
-## Requirements
+## Dependency
 Python 3.4 or higher  
+cv2
+dlib
+imutils
+scipy
+pygame
 
 ## Usage
 `python drowsiness_detector.py`  
