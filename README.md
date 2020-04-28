@@ -5,7 +5,7 @@ A Python drowsiness detector based on OpenCV and Dlib.
 "Eye Blink Detection using Facial Landmarks"  
 obtained from http://vision.fe.uni-lj.si/cvww2016/proceedings/papers/05.pdf  
 
-The program locates 6 facial landmarks on each eyes and compute the "eye aspect ratio".  
+The program locates 6 facial landmarks on each eye and computes the "eye aspect ratio".  
 The alarms sounds when user's eyes are below a certain eye aspect ratio during a period of time.  
 
 ## Requirements
