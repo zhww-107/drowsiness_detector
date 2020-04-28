@@ -10,11 +10,11 @@ The alarms sounds when user's eyes are below a certain eye aspect ratio during a
 
 ## Dependency
 Python 3.4 or higher  
-cv2
-dlib
-imutils
-scipy
-pygame
+cv2  
+dlib  
+imutils  
+scipy  
+pygame  
 
 ## Usage
 `python drowsiness_detector.py`  
