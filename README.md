@@ -1,6 +1,9 @@
 # Drowsiness Detector
 A Python drowsiness detector based on OpenCV and Dlib.
 
+## Requirements
+Python 3.4 or higher
+
 ## Methodology
 "Eye Blink Detection using Facial Landmarks"  
 obtained from http://vision.fe.uni-lj.si/cvww2016/proceedings/papers/05.pdf  
