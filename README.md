@@ -10,10 +10,19 @@ The alarms sounds when user's eyes are below a certain eye aspect ratio during a
 
 ## Sources
 facial landmark predictor: shape_predictor_68_face_landmarks.dat  
-obtained from http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2.
+obtained from http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2.  
+
+This facial landmark predictor model used is trained on the iBUG 300-W face landmark dataset  
+from https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/.  
+The data set is commercial-use excluded, which indicates this program and related model should not be used commercially without an approval from iBUG authors.  
 
 alarm sound  
-from http://sc.chinaz.com/yinxiao/130503066482.htm
+obtained from http://sc.chinaz.com/yinxiao/130503066482.htm
 
 imutils  
 obtained from https://github.com/jrosebr1/imutils
+
+## Execution
+`python drowsiness_detector.py`  
+or  
+`python3 drowsiness_detector.py`
